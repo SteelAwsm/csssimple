@@ -1,0 +1,40 @@
+.list {
+    color: green;
+}
+
+.card {
+    background-color: cadetblue;
+    color:aliceblue;
+    padding: 20px 50px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 5px 10px  rgba(31, 203, 255, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+    transform: scale(1.1);
+}
+.cardparent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+}
+
+h3 {
+    color: gold;
+}
+.card2 {
+    position: relative;
+    bottom: 40px;
+
+}
+
+
+.center {
+    text-align: center;
+  }
